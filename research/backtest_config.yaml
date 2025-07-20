@@ -1,0 +1,6 @@
+# this config is for any settings you want for the backtester
+# in python, this is loaded as one big dictionary with nested dictionaries
+
+# below defines the sector etfs to use, and a fallback if there is no data.
+sector_etfs:
+  
