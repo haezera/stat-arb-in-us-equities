@@ -12,7 +12,7 @@ The backtest using a configuration `YAML` file to feed in any configuration you 
 to use for different sectors, fallbacks if these sector etfs didn't exist for a period of time (this is important for some sectors
 which ETFs don't have extended historical data), and more.
 
-This config file is found in `/research/backtest_config.yaml'. Theoretically, you could change the sector_etfs to be anything - commodity ETFs, whatever. You can also change the fee assumptions if you have stronger conviction that the fees will be more (or less) than what I've assumed. 
+This config file is found in `/research/backtest_config.yaml`. Theoretically, you could change the sector_etfs to be anything - commodity ETFs, whatever. You can also change the fee assumptions if you have stronger conviction that the fees will be more (or less) than what I've assumed. 
 
 ### Some notes about this project
 
