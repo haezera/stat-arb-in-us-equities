@@ -1,6 +1,49 @@
 # this config is for any settings you want for the backtester
 # in python, this is loaded as one big dictionary with nested dictionaries
 
-# below defines the sector etfs to use, and a fallback if there is no data.
-sector_etfs:
-  
+# below defines the sector etfs to use, and a fallback if there is no data for the intended beta.
+sector_betas:
+  Communication Services:
+    beta: 'XLC'
+    fallback: 'SPY'
+  Consumer Discretionary:
+    beta: 'XLY'
+    fallback: 'SPY'
+  Consumer Staples:
+    beta: 'XLP'
+    fallback: 'SPY'
+  Energy:
+    beta: 'XLE'
+    fallback: 'SPY'
+  Financials:
+    beta: 'XLF'
+    fallback: 'SPY'
+  Health Care:
+    beta: 'XLV'
+    fallback: 'SPY'
+  Industrials:
+    beta: 'XLI'
+    fallback: 'SPY'
+  Materials:
+    beta: 'XLB'
+    fallback: 'SPY'
+  Real Estate:
+    beta: 'XLRE'
+    fallback: 'SPY'
+  Technology:
+    beta: 'XLK'
+    fallback: 'SPY'
+  Utilities:
+    beta: 'XLU'
+    fallback: 'SPY'
+
+backtest:
+  trade_fee: 0.0005
+  lookback: 60
+
+  # position entry parameters
+  short_entry: 1.25
+  short_exit: 0.75
+
+  long_entry: -1.25
+  long_exit: -0.50
