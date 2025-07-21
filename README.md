@@ -14,6 +14,10 @@ These results clearly contain some issues regarding portfolio sizing and possibl
     <img src='./readme/beta_v1.png' width= 500px>
 </center>
 
+### Optimisations of the strategy
+
+#### Volatility and future returns
+
 ### Backtest configuration
 
 The backtest using a configuration `YAML` file to feed in any configuration you want. This includes your assumptions on what ETFs
