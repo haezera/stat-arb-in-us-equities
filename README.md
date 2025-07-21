@@ -4,7 +4,15 @@ The paper recreated in this project is located ![here](https://github.com/haezer
 
 ### Results
 
-To come.
+#### Preliminary results
+
+These results clearly contain some issues regarding portfolio sizing and possible data anomalies (evident by the large drawdowns and also rallies in very short amounts of time). They also do not include transaction costs, and thus are a naive test.
+
+<center>
+    <img src='./readme/backtest_v1.png' width= 800px>
+    <img src='./readme/outperform_v1.png' width= 600px>
+    <img src='./readme/beta_v1.png' width= 500px>
+</center>
 
 ### Backtest configuration
 
