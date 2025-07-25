@@ -16,7 +16,13 @@ These results clearly contain some issues regarding portfolio sizing and possibl
 
 ### Optimisations of the strategy
 
+One of the major implementation problems of statistical arbitrage strategies, particulary in a large universe as the S&P 500, is the need to long and short the hedge leg (in our case, sector ETFs) simultaneously.
+
+`<add implementation details of sector neutral portfolio construction with residual betas to sector etfs>`
+
 #### Volatility and future returns
+
+`<add details about strat volatility and other information>`
 
 ### Backtest configuration
 
