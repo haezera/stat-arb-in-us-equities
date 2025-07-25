@@ -38,7 +38,7 @@ sector_betas:
     fallback: 'SPY'
 
 backtest:
-  trade_fee: 0.0005
+  trade_fee: 0.0003
   lookback: 60
 
   # position entry parameters
